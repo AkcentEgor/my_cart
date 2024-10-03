@@ -96,37 +96,43 @@ h2 {
     color: #818181;
 }
 
-.myprojects {
+.myprojects,
+.stack {
     color: aliceblue;
     margin: 50px 50px; 
 }
 
-.myprojects h2 {
+.myprojects h2,
+.stack h2 {
     margin: 50px 30px;
+}
+
+.stack p {
+    font-size: 24px;
 }
 
 .projects {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;  
+    /* flex-wrap: wrap;
+    justify-content: space-between;   */
     max-width: 1500px;
     margin: 20px;
     align-items: first baseline;
 }
 
-.project1,
-.project2 {
+.project1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
-    max-width: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .project {
     height: 650px;
     margin: 60px 0px;
     text-align: center;
-    width: 100%;
+    width: 45%;
     background: #181823;
     -webkit-box-shadow: 10px 10px 8px 0px rgba(79, 167, 234, 0.2);
     -moz-box-shadow: 10px 10px 8px 0px rgba(79, 167, 234, 0.2);
@@ -153,11 +159,12 @@ h2 {
     font-size: 24px;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .project_text_block h3 {
-    margin: 20px;
+    margin: 10px;
     padding: 5px 20px;
     border-radius: 15px;
 }
@@ -168,6 +175,10 @@ h2 {
 
 .css {
     background: #179ced;
+}
+
+.js {
+    background: #e4cf12;
 }
 
 h1 {
@@ -300,6 +311,10 @@ button {
 
     h3 {
         font-size: 18px;
+    }
+
+    .stack p {
+        font-size: 14px;
     }
 
     input,
