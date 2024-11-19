@@ -181,6 +181,26 @@ h2 {
     background: #e4cf12;
 }
 
+.python {
+    background: #000000;
+}
+
+.fastapi {
+    background: #0274b6;
+}
+
+.docker {
+    background: #039df7;
+}
+
+.telegram {
+    background: #039df7;
+}
+
+.sql {
+    background: #dbeb05;
+}
+
 h1 {
     font-size: 76px;
     font-weight: 700;
